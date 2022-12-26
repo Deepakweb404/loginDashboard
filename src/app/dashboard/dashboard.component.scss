@@ -1,0 +1,234 @@
+.navbar-custom {
+  background-color: #38414a;
+  box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+  padding: 0 10px 0 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 70px;
+  z-index: 1001;
+}
+.navbar-custom .topnav-menu > li {
+  float: left;
+}
+.navbar-custom .app-search {
+  height: 70px;
+  display: table;
+  max-width: 180px;
+  margin-right: 20px;
+}
+.navbar-custom .app-search .app-search-box {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.navbar-custom .app-search .form-control {
+  border: none;
+  height: 38px;
+  padding-left: 20px;
+  padding-right: 0;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.07);
+  box-shadow: none;
+  border-radius: 30px 0 0 30px;
+}
+.navbar-custom .app-search .btn {
+  background-color: rgba(255, 255, 255, 0.07);
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.3);
+  border-radius: 0 30px 30px 0;
+  box-shadow: none !important;
+}
+.navbar-custom .app-search .input-group-text {
+  margin-left: 0 !important;
+  z-index: 4;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #6658dd;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+.navbar-custom .topnav-menu .nav-link {
+  padding: 0 15px;
+  color: rgba(255, 255, 255, 0.6);
+  min-width: 32px;
+  display: block;
+  line-height: 70px;
+  text-align: center;
+  max-height: 70px;
+}
+.dropdown-toggle {
+  white-space: nowrap;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.topnav .navbar-nav .nav-item.dropdown.active > a.dropdown-toggle {
+  color: #00acc1;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.icons {
+  font-size: 21px;
+  vertical-align: middle;
+}
+
+.notification-list .noti-icon-badge {
+  display: inline-block;
+  position: absolute;
+  top: 16px;
+  right: 10px;
+}
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.waves-effect .waves-ripple {
+  position: absolute;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  margin-left: -50px;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.2);
+  background: radial-gradient(
+    rgba(0, 0, 0, 0.2) 0,
+    rgba(0, 0, 0, 0.3) 40%,
+    rgba(0, 0, 0, 0.4) 50%,
+    rgba(0, 0, 0, 0.5) 60%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  transition: all 0.5s ease-out;
+  transition-property: transform, opacity;
+  transform: scale(0) translate(0, 0);
+  pointer-events: none;
+}
+.waves-effect.waves-light .waves-ripple {
+  background: rgba(255, 255, 255, 0.4);
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.2) 0,
+    rgba(255, 255, 255, 0.3) 40%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.5) 60%,
+    rgba(255, 255, 255, 0) 70%
+  );
+}
+.waves-effect.waves-classic .waves-ripple {
+  background: rgba(0, 0, 0, 0.2);
+}
+.waves-effect.waves-classic.waves-light .waves-ripple {
+  background: rgba(255, 255, 255, 0.4);
+}
+.logo span.logo-lg {
+  display: block;
+}
+.logo-box .logo {
+  line-height: 22px;
+}
+.logo span.logo-sm {
+  display: none;
+}
+
+.logo-box {
+  height: 70px;
+  width: 240px;
+  float: left;
+  transition: all 0.1s ease-out;
+}
+.navbar-custom .button-menu-mobile {
+  border: none;
+  color: #fff;
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+  width: 60px;
+  background-color: transparent;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-user img {
+  height: 32px;
+  width: 32px;
+}
+
+.notification-list .icons-badge {
+  display: inline-block;
+  position: absolute;
+  top: 16px;
+  right: 10px;
+}
+.navbar-custom .topnav-menu > li {
+  float: left;
+}
+.notification-list {
+  margin-left: 0;
+}
+
+.simplebar-height-auto-observer-wrapper {
+  box-sizing: inherit !important;
+  height: 100%;
+  width: 100%;
+  max-width: 1px;
+  position: relative;
+  float: left;
+  max-height: 1px;
+  overflow: hidden;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+  flex-grow: inherit;
+  flex-shrink: 0;
+  flex-basis: 0;
+}
+
+.dropdown-icon-item {
+  display: block;
+  border-radius: 3px;
+  line-height: 34px;
+  text-align: center;
+  padding: 15px 0 9px;
+  display: block;
+  border: 1px solid transparent;
+  color: #6c757d;
+}
+.g-0,
+.gy-0 {
+  --bs-gutter-y: 0;
+}
+
+.dropdown-lg {
+  width: 320px;
+  padding: 1rem;
+}

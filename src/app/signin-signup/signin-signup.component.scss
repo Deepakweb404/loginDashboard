@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.auth-fluid {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: row;
+  align-items: stretch;
+  background: url("../../assets/images/bg-auth.jpg") center;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+}
+
+.auth-fluid .auth-fluid-right {
+  padding: 6rem 3rem;
+  flex: 1;
+  position: relative;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: "Lato", sans-serif;
+}
+
+.auth-fluid .auth-fluid-form-box {
+  max-width: 480px;
+  border-radius: 0;
+  z-index: 2;
+  padding: 3rem 2rem;
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+.social-list-item {
+  height: 2rem;
+  width: 2rem;
+  line-height: calc(2rem - 2px);
+  display: block;
+  border: 2px solid #adb5bd;
+  border-radius: 50%;
+  color: #adb5bd;
+  font-family: "Lato", sans-serif;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #6658dd;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  font-family: "Lato", sans-serif;
+}
+.nav-bordered a.active {
+  border-bottom: 2px solid #6658dd !important;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ffffff #ffffff #fff;
+}
+
+.auth-user-testimonial {
+  position: absolute;
+  margin: 0 auto;
+  padding: 0 1.75rem;
+  bottom: 3rem;
+  left: 0;
+  right: 0;
+}
+.font-16 {
+  font-size: 16px !important;
+}
+
+.tab-content {
+  padding: 20px 0 0 0;
+}
